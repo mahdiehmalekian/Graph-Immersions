@@ -1,0 +1,110 @@
+The following results are used in the proof of Lemma 3.9 of the paper
+DeVos, Malekian, The structure of graphs with no K_3,3 immersion, https://arxiv.org/abs/1810.12873.
+
+
+****************************************************************************************************************************************
+In the following, all graphs are undirected and loopless.
+
+By a 'well-edge-connected graph', we mean a 3-edge-connected, internally 4-edge-connected multigraph where for any 
+X a subset of vertices V with |X|>=3 and |V\X|>=3 we have d(X)>=5.
+
+
+****************************************************************************************************************************************
+Computation for graphs on 6, 7, 8, and 9 vertices:
+(Edge multiplicities are at most nine.)
+
+The number of simple connected graphs on 6 vertices without an immersion of K_3,3 is 102.
+The number of well-edge-connected graphs on 6 vertices without an immersion of K_3,3 is 4016.
+
+The number of simple connected graphs on 7 vertices without an immersion of K_3,3 is 605.
+The number of well-edge-connected graphs on 7 vertices without an immersion of K_3,3 is 3709.
+
+The number of simple connected graphs on 8 vertices without an immersion of K_3,3 is 4363.
+The number of well-edge-connected graphs on 8 vertices without an immersion of K_3,3 is 1405.
+
+The number of simple connected graphs on 9 vertices without an immersion of K_3,3 is 34101.
+The number of well-edge-connected graphs on 9 vertices without an immersion of K_3,3 is 0.
+
+
+Calculation was done in 1:06:13.908051.
+
+
+****************************************************************************************************************************************
+After filtering out Type 2 graphs:
+
+
+In the family of well-edge-connected graphs, the followings are the only graphs without an immersion of K_3,3 which are not Type 2.
+(Note: The edge sets are in the form of {edge: edge_multiplicity})
+
+The connected graph with edge set {(0, 4): 2, (0, 5): 1, (1, 4): 2, (1, 5): 1, (2, 4): 2, (2, 5): 1, (3, 4): 2, (3, 5): 1}
+
+The connected graph with edge set {(0, 3): 2, (0, 4): 2, (3, 5): 2, (1, 4): 2, (1, 5): 2, (2, 4): 2, (2, 5): 2}
+
+The connected graph with edge set {(0, 3): 2, (0, 4): 2, (0, 5): 2, (1, 3): 2, (1, 5): 2, (2, 4): 2, (2, 5): 2}
+
+The connected graph with edge set {(0, 2): 1, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 4): 2, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 2, (1, 3): 1, (1, 4): 1, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 2, (1, 3): 1, (1, 4): 1, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 1, (1, 3): 2, (1, 4): 1, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 1, (1, 3): 1, (1, 4): 2, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 4): 2, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 2, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (4, 5): 2, (1, 3): 2, (1, 4): 1, (1, 5): 1, (3, 4): 1, (3, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 2, (0, 5): 1, (2, 4): 2, (2, 5): 1, (1, 3): 2, (1, 4): 2, (1, 5): 2}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 5): 2, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 2, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 2, (1, 3): 1, (1, 4): 1, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 2, (1, 4): 1, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 2, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 5): 2, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 2, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 2, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 2, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 2, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 2, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 2, (1, 3): 1, (1, 4): 2, (1, 5): 1, (4, 5): 1}
+
+The connected graph with edge set {(0, 2): 2, (0, 3): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 2, (1, 3): 1, (1, 4): 1, (1, 5): 1, (4, 5): 2}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 2, (0, 4): 1, (2, 4): 1, (2, 5): 2, (3, 5): 1, (1, 3): 1, (1, 4): 2, (1, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (4, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 2, (4, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 5): 1, (4, 5): 1, (1, 3): 2, (1, 4): 1, (1, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 4): 1, (3, 5): 1, (4, 5): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1}
+
+The connected graph with edge set {(0, 2): 1, (0, 3): 1, (0, 4): 1, (0, 5): 1, (2, 4): 1, (2, 5): 1, (3, 4): 1, (3, 5): 1, (1, 2): 1, (1, 3): 1, (1, 4): 1, (1, 5): 1}
+
+The connected graph with edge set {(0, 3): 2, (0, 5): 2, (3, 6): 2, (1, 4): 2, (1, 5): 2, (4, 6): 2, (2, 5): 2, (2, 6): 2}
+
+The connected graph with edge set {(0, 3): 2, (0, 4): 1, (0, 6): 1, (3, 5): 2, (4, 6): 1, (1, 4): 2, (1, 5): 2, (2, 5): 2, (2, 6): 2}
+
+The connected graph with edge set {(0, 3): 2, (0, 6): 2, (3, 7): 2, (1, 4): 2, (1, 6): 2, (4, 7): 2, (2, 5): 2, (2, 6): 2, (5, 7): 2}
+
+
+****************************************************************************************************************************************
+The above graphs are the graphs of Type 3 or Type 4.
+A drawing of these garphs can be found in 'drawing K_3,3 obstructions.ipynb'.
