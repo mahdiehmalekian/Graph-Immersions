@@ -38,16 +38,16 @@ star_line = '\n\n\n*************************************************************
 
 results_file = 'K_3,3 obstructions.txt'
 with open(results_file, 'a') as file_object:
-    file_object.write('The following results are used in the proof of Lemma 3.9 of the paper'+
-                      '\nDeVos, Malekian, The structure of graphs with no K_3,3 immersion,'+
-                      ' https://arxiv.org/abs/1810.12873.'+star_line+
-                      '\nIn the following, all graphs are undirected and loopless.'+
-                      "\n\nBy a 'well-edge-connected graph', we mean a 3-edge-connected, "+
-                      'internally 4-edge-connected multigraph where for any '+
-                      '\nX a subset of vertices V with |X|>=3 and |V\X|>=3 we have d(X)>=5.'+
+    file_object.write('''The following results are used in the proof of Lemma 3.9 of the paper
+                      \nDeVos, Malekian, The structure of graphs with no K_3,3 immersion,
+                       https://arxiv.org/abs/1810.12873'''+star_line+
+                      """\nIn the following, all graphs are undirected and loopless.
+                      \n\nBy a 'well-edge-connected graph', we mean a 3-edge-connected, 
+                      internally 4-edge-connected multigraph where for any 
+                      \nX a subset of vertices V with |X|>=3 and |V\X|>=3 we have d(X)>=5."""+
                       star_line+
-                      '\nComputation for graphs on 6, 7, 8, and 9 vertices:\n'+
-                      '(Edge multiplicities are at most nine.)')
+                      """\nComputation for graphs on 6, 7, 8, and 9 vertices:\n
+                      (Edge multiplicities are at most nine.)""")
 
 time_0 = datetime.datetime.now()
 
@@ -84,10 +84,10 @@ with open(results_file, 'a') as file_object:
 
 with open(results_file, 'a') as file_object:
     file_object.write(star_line+
-                      '\nAfter filtering out Type 2 graphs:\n\n'+
-                      '\nIn the family of well-edge-connected graphs, the followings are'+
-                      ' the only graphs without an immersion of K_3,3 which are not Type 2.'+
-                      '\n(Note: The edge sets are in the form of {edge: edge_multiplicity})')
+                      """\nAfter filtering out Type 2 graphs:\n\n
+                      \nIn the family of well-edge-connected graphs, the followings are
+                       the only graphs without an immersion of K_3,3 which are not Type 2.
+                      \n(Note: The edge sets are in the form of {edge: edge_multiplicity})""")
 
 for obstruction in exception:
     with open(results_file, 'a') as file_object:
