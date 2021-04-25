@@ -5,4 +5,4 @@ The file which gives the obstructions to K_3,3 immersion is 'k33_obstructions.py
 saved in 'K_3,3 obstructions.txt'. I have also included a drawing of non-generic obstructions to 
 immersion of K_3,3 in 'drawing K_3,3 obstructions.ipynb'.
 
-The result of this code is used in the following paper: DeVos, Malekian, The structure of graphs with no K_3,3 immersion, https://arxiv.org/abs/1810.12873.
+The result of this code is used in the following paper: [DeVos, Malekian, The structure of graphs with no K_3,3 immersion, J. Graph Theory, *to appear*](https://onlinelibrary.wiley.com/doi/10.1002/jgt.22678) (also available at https://arxiv.org/abs/1810.12873).
