@@ -6,5 +6,5 @@ The code whose output is the obstructions to rooted W_4 immersion is 'rooted_w4_
  in 'rooted W_4 obstructions.txt'. You can also see a drawing of the non-generic
 obstructions in 'drawing rooted W_4 obstructions.ipynb'. The rest of the files are the modules used in the code. 
 
-The result of this code is used in the paper DeVos, Malekian, The structure of graphs with no W_4 immersion,
- https://arxiv.org/abs/1810.12863.
+The result of this code is used in the paper [DeVos, Malekian, The structure of graphs with no W_4 immersion, J. Graph Theory, *to appear*](https://onlinelibrary.wiley.com/doi/10.1002/jgt.22677) (also available at
+ https://arxiv.org/abs/1810.12863).
